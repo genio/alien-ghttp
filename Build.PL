@@ -11,7 +11,7 @@ my %module_build_args = (
     "Alien::patch" => 0
   },
   "alien_build_commands" => [
-    "%{patch} -p1 < ../../patches/config.sub.diff",
+    "%{patch} config.sub < ../../patches/oses.patch",
     "%c --prefix=%s",
     "make"
   ],
