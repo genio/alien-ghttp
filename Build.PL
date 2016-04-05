@@ -8,7 +8,7 @@ use lib qw{inc}; use Alien::Base::ModuleBuild;
 
 my %module_build_args = (
   "alien_bin_requires" => {
-    "Alien::patch" => 0
+    "Alien::patch" => "0.08"
   },
   "alien_build_commands" => [
     "%{patch} config.sub < ../../patches/oses.patch",
@@ -26,7 +26,6 @@ my %module_build_args = (
   "configure_requires" => {
     "Alien::Base" => 0,
     "Alien::Base::ModuleBuild" => "0.020",
-    "Alien::patch" => "0.08",
     "File::ShareDir" => "1.03"
   },
   "dist_abstract" => "Easy installation of the GNOME libghttp library",
@@ -40,7 +39,6 @@ my %module_build_args = (
   "recursive_test_files" => 1,
   "requires" => {
     "Alien::Base" => "0.020",
-    "Alien::patch" => "0.08",
     "File::ShareDir" => "1.03",
     "Module::Build" => "0.28",
     "perl" => "5.008001",

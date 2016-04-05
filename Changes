@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Make Alien::patch a dynamic requirement
 
 0.001     2016-04-05
   - original version
