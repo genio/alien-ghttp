@@ -65,7 +65,7 @@
    "provides" : {
       "Alien::GHTTP" : {
          "file" : "lib/Alien/GHTTP.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -80,7 +80,7 @@
          "web" : "https://github.com/genio/alien-ghttp"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_contributors" : [
       "Chase Whitener <chase.whitener@infotechfl.com>",
       "Chase Whitener <cwhitener@gmail.com>"
