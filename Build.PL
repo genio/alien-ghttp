@@ -37,12 +37,20 @@ my %module_build_args = (
     "warnings" => 0
   },
   "test_requires" => {
+    "ExtUtils::MakeMaker" => 0,
+    "File::Spec" => 0,
+    "IO::Handle" => 0,
+    "IPC::Open3" => 0,
     "Test::More" => "0.88"
   }
 );
 
 
 my %fallback_build_requires = (
+  "ExtUtils::MakeMaker" => 0,
+  "File::Spec" => 0,
+  "IO::Handle" => 0,
+  "IPC::Open3" => 0,
   "Test::More" => "0.88"
 );
 
