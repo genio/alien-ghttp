@@ -16,12 +16,15 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Alien::Base::ModuleBuild" : "0.002",
+            "Alien::Base" : "0",
+            "Alien::Base::ModuleBuild" : "0.020",
+            "Alien::patch" : "0.08",
             "File::ShareDir" : "1.03"
          }
       },
       "develop" : {
          "requires" : {
+            "Alien::patch" : "0.08",
             "Pod::Coverage::TrustPod" : "0",
             "Test::CPAN::Changes" : "0.4",
             "Test::CheckManifest" : "1.29",
@@ -37,7 +40,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Alien::Base" : "0.002",
+            "Alien::Base" : "0.020",
+            "Alien::patch" : "0.08",
             "File::ShareDir" : "1.03",
             "Module::Build" : "0.28",
             "perl" : "5.008001",
