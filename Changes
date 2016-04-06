@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - 
+
+0.002     2016-04-06
   - Make Alien::patch a dynamic requirement
   - Update config.sub and config.guess to the latest from
     http://git.savannah.gnu.org/cgit/config.git
