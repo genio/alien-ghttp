@@ -34,7 +34,7 @@ my %module_build_args = (
     "Chase Whitener <capoeirab\@cpan.org>"
   ],
   "dist_name" => "Alien-GHTTP",
-  "dist_version" => "0.003",
+  "dist_version" => "0.004",
   "license" => "perl",
   "module_name" => "Alien::GHTTP",
   "recursive_test_files" => 1,
