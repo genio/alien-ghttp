@@ -1,6 +1,6 @@
 # NAME
 
-Alien::GHTTP - Easy installation of the GNOME libghttp library
+Alien::GHTTP - (DEPRECATED) Easy installation of the GNOME libghttp library
 
 # SYNOPSIS
 
@@ -33,6 +33,10 @@ Alien::GHTTP - Easy installation of the GNOME libghttp library
 Provides the GNOME libghttp
 [http://ftp.gnome.org/pub/gnome/sources/libghttp](http://ftp.gnome.org/pub/gnome/sources/libghttp) (GHTTP) for use by Perl modules, installing it if necessary.
 This module relies heavily on the [Alien::Base](https://metacpan.org/pod/Alien::Base) system to do so.
+
+Note that the **end of life** for this particular library was way, way back in 2002.
+
+You have been warned.  Please use some other library.
 
 # SEE ALSO
 

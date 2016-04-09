@@ -1,5 +1,5 @@
 {
-   "abstract" : "Easy installation of the GNOME libghttp library",
+   "abstract" : "(DEPRECATED) Easy installation of the GNOME libghttp library",
    "author" : [
       "Chase Whitener <capoeirab@cpan.org>"
    ],

@@ -1,24 +1,12 @@
 # Avoid version control files.
-\bRCS\b
-\bCVS\b
-,v$
-,B$
-,D$
-\B\.svn\b
-\B\.cvsignore$
 \B\.git\b
 \B\.gitignore$
 \B\.gitattributes$
-\B\.bzr\b
-\B\.bzrignore$
 
 ^blib/
 ^blibdirs$
 ^blibdirs\.ts$
 ^bpm_to_blib\.ts$
-^Makefile$
-^Makefile\.old$
-^MakeMaker-\d
 ^MANIFEST\.bak$
 ^MANIFEST\.SKIP$
 ^MYMETA\.
@@ -34,7 +22,6 @@
 ^build.com$
 
 # Author Extras
-^inc/.*\.pod$
 ^pkg/
 
 # Editors
@@ -50,11 +37,6 @@
 ^\.Trash/
 \B\._
 
-# VMS
-\bDescrip.MMS$
-\bDESCRIP.MMS$
-\bdescrip.mms$
-
 # Development
 ^benchmarks/
 ^core$
@@ -67,11 +49,6 @@
 ^out$
 ^tmon.out$
 
-# Author Notes
-^notes
-^todo
-^ToDo$
-
 # Common Junk Files
 \.bak$
 ^foo\b.*
@@ -83,9 +60,6 @@
 ^\w$
 \.ttc$
 \.pmc$
-
-# Distribution tarballs
-^[^/]+\.tar\.gz$
 
 # Travis CI
 .travis.yml
@@ -102,24 +76,7 @@
 #   Mac OSX SMB mount metadata files
 \B\._
 
-# Avoid archives of this distribution
-\.gz$
-\.ppd$
-\.ppmx$
-\.tgz$
-\.deb$
-\bdebian
-\bDebian_CPANTS.txt$
--stamp$
-
-# Avoid Eclipse files
-.cproject
-.includepath
-.project
-.settings
-
 # Avoid distdir
-\d+\.\d+\b
 ^MYMETA.yml$
 ^MYMETA\.json$
 

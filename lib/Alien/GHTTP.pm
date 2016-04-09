@@ -12,7 +12,7 @@ use parent 'Alien::Base';
 
 =head1 NAME
 
-Alien::GHTTP - Easy installation of the GNOME libghttp library
+Alien::GHTTP - (DEPRECATED) Easy installation of the GNOME libghttp library
 
 =head1 SYNOPSIS
 
@@ -45,6 +45,10 @@ Alien::GHTTP - Easy installation of the GNOME libghttp library
 Provides the GNOME libghttp
 L<http://ftp.gnome.org/pub/gnome/sources/libghttp> (GHTTP) for use by Perl modules, installing it if necessary.
 This module relies heavily on the L<Alien::Base> system to do so.
+
+Note that the B<end of life> for this particular library was way, way back in 2002.
+
+You have been warned.  Please use some other library.
 
 =head1 SEE ALSO
 

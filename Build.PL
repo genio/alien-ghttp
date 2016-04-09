@@ -19,17 +19,17 @@ my %module_build_args = (
   "alien_inline_auto_include" => [],
   "alien_name" => "GHTTP",
   "alien_repository" => {
-    "host" => "ftp.acc.umu.se",
-    "location" => "/pub/gnome/sources/libghttp/1.0",
+    "host" => "",
+    "location" => "inc",
     "pattern" => "^libghttp-(1\\.0\\.9)\\.tar\\.gz\$",
-    "protocol" => "ftp"
+    "protocol" => "local"
   },
   "configure_requires" => {
     "Alien::Base" => 0,
     "Alien::Base::ModuleBuild" => "0.020",
     "File::ShareDir" => "1.03"
   },
-  "dist_abstract" => "Easy installation of the GNOME libghttp library",
+  "dist_abstract" => "(DEPRECATED) Easy installation of the GNOME libghttp library",
   "dist_author" => [
     "Chase Whitener <capoeirab\@cpan.org>"
   ],
