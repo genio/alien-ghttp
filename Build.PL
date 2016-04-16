@@ -7,26 +7,17 @@ use Module::Build 0.28;
 use lib qw{inc}; use Alien::Base::ModuleBuild;
 
 my %module_build_args = (
-  "alien_bin_requires" => {
-    "Alien::patch" => "0.08"
-  },
-  "alien_build_commands" => [
-    "%{patch} config.sub < ../../patches/sub.diff",
-    "%{patch} config.guess < ../../patches/guess.diff",
-    "%c --prefix=%s",
-    "make"
-  ],
   "alien_inline_auto_include" => [],
   "alien_name" => "GHTTP",
   "alien_repository" => {
     "host" => "",
     "location" => "inc",
-    "pattern" => "^libghttp-(1\\.0\\.9)\\.tar\\.gz\$",
+    "pattern" => "^libghttp-(1\\.0\\.9)\\.patched\\.tar\\.gz\$",
     "protocol" => "local"
   },
   "configure_requires" => {
     "Alien::Base" => 0,
-    "Alien::Base::ModuleBuild" => "0.020",
+    "Alien::Base::ModuleBuild" => "0.002",
     "File::ShareDir" => "1.03"
   },
   "dist_abstract" => "(DEPRECATED) Easy installation of the GNOME libghttp library",
@@ -39,7 +30,7 @@ my %module_build_args = (
   "module_name" => "Alien::GHTTP",
   "recursive_test_files" => 1,
   "requires" => {
-    "Alien::Base" => "0.020",
+    "Alien::Base" => "0.002",
     "File::ShareDir" => "1.03",
     "Module::Build" => "0.28",
     "perl" => "5.008001",

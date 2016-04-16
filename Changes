@@ -1,7 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
-  - 
+  - Patched the libghttp to ship it out already patched - removes complexity
 
 0.003     2016-04-08
   - Bundle tarball of version 1.0.9 with the release

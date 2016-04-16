@@ -10,7 +10,7 @@ Alien::GHTTP - (DEPRECATED) Easy installation of the GNOME libghttp library
 
     my $builder = Module::Build->new(
       configure_requires => {
-        'Alien::GHTTP' => '0.001',
+        'Alien::GHTTP' => '0.004',
       },
       ...
       extra_compiler_flags => Alien::GHTTP->cflags,
