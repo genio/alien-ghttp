@@ -86,3 +86,5 @@
 \.exe$
 \.o$
 \.mailmap$
+\.so$
+\.dylib$
