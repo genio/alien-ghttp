@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - 
+
+0.005     2016-04-29
   - Patched libghttp to be current with autotools to correct FreeBSD installs
   - Cleaned up some DZil build stuff
 
